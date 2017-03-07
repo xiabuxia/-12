@@ -99,7 +99,7 @@
         </ul>
     </div>
 
-    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
     <script>
         var $preBtn = $('.pre-btn'),
             $nextBtn = $('.next-btn'),
@@ -140,7 +140,7 @@
                  pageIdx=idx;
                  bltAutoPlay()
             }
-
+            // 淡入淡出使用的时候前提是让四张图片重叠
             function bltAutoPlay(){
                 $bulletCt.children()
                     .removeClass('active')
